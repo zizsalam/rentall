@@ -1,0 +1,16 @@
+
+<h1>New Flat</h1>
+
+<%= form_for @flat do |f| %>
+  <!-- Form fields for flat attributes -->
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <!-- Add more form fields as needed -->
+
+  <div>
+    <%= f.submit 'Create Flat' %>
+  </div>
+<% end %>
